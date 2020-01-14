@@ -7,7 +7,7 @@ using namespace std;
 void obradi(vector<int> podskup){
 	for(int i=0; i<podskup.size(); i++)
 		cout << podskup[i];
-		cout << endl;
+	cout << endl;
 }
 
 bool sledeciPodskup(vector<int>& podskup, int n) {
