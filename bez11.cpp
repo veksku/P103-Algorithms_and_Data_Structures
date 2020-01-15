@@ -9,9 +9,7 @@ bool bez11(vector<int>& a){
 		return false;
 		
 	int i = n-1;
-	/*																										0000 > 0001 > 0011 > 0100 > 0101
-	
-	*/
+
 	while((i>=0 && a[i] == 1) || (i>=0 && a[i-1] == 1))
 		a[i--] = 0;
 	
